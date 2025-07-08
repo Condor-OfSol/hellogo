@@ -1,9 +1,5 @@
-module github.com/username/hellogo
+module github.com/Condor-OfSol/hellogo
 
-go 1.23.0
+go 1.24.4
 
-replace github.com/username/mystrings v0.0.0 => ../mystrings
-
-require (
-	github.com/username/mystrings v0.0.0
-)
+require github.com/Condor-OfSol/mystrings v0.0.0
